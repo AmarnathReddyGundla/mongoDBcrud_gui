@@ -8,7 +8,7 @@ const port=3000;
 
 //MongoDB connection
 
-mongoose.connect('mongodb://localhost:27017/branddb')
+mongoose.connect('mongodb+srv://amarnath:amarvedha2@cluster0.6dac6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(()=> console.log('Connected to MongoDB'))
     .catch(err => console.error('Error connecting to MongoDB',err));
     
